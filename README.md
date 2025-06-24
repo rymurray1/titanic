@@ -26,9 +26,9 @@ The project explores multiple machine learning algorithms:
 ## Setup Instructions
 
 ### Prerequisites
-- Python 3.7+
-- Jupyter Notebook
-- Required packages (install via pip):
+- Google Colab account
+- Titanic dataset files (train.csv, test.csv, gender_submission.csv)
+- Required packages (automatically available in Colab):
   ```
   pandas
   numpy
@@ -42,23 +42,19 @@ The project explores multiple machine learning algorithms:
 1. Clone the repository:
    ```bash
    git clone git@github.com:rymurray1/titanic.git
-   cd titanic
    ```
 
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+2. Upload the notebook to Google Colab:
+   - Open Google Colab
+   - Go to File > Upload notebook
+   - Select `titanic_final_project.ipynb`
 
-3. Launch Jupyter Notebook:
-   ```bash
-   jupyter notebook
-   ```
-
-4. Open `titanic_final_project.ipynb` and run the cells
+3. Upload the dataset files:
+   - The notebook will prompt you to upload the CSV files
+   - Upload `train.csv`, `test.csv`, and `gender_submission.csv` when prompted
 
 ## Usage
-1. Open the Jupyter notebook
+1. Open the notebook in Google Colab
 2. Run all cells sequentially to execute the complete analysis
 3. The notebook includes:
    - Data loading and exploration
@@ -81,4 +77,4 @@ Feel free to submit issues and enhancement requests!
 This project is for educational purposes as part of the University of Colorado MSCS Machine Learning course.
 
 ## Author
-Ryan Murray - University of Colorado MSCS Student 
+Ryan Murray - University of Colorado MSCS Student
